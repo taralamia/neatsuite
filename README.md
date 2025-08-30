@@ -1,5 +1,15 @@
 # NeatSuite - NetSuite Development Tools
 
+<img width="1312" height="736" alt="Modern software announcement banner for 'neatsuite' HTTP library, featuring a dark gradient background, bold modern font, code snippets, subtle neon developer accents, and a Ko-Fi coffee cup icon_" src="https://github.com/user-attachments/assets/222acfd1-67cb-4413-ac07-4816ab70a159" />
+
+![NPM Downloads](https://img.shields.io/npm/dm/%40neatsuite%2Fhttp?style=for-the-badge&label=http-%20Downloads)
+![NPM Downloads](https://img.shields.io/npm/dm/%40neatsuite%2Fhttp-umd?style=for-the-badge&label=http-umd%20-%20Downloads)
+![NPM Version](https://img.shields.io/npm/v/%40neatsuite%2Fhttp?style=for-the-badge&label=%40neatsuite%2Fhttp)
+![NPM Version](https://img.shields.io/npm/v/%40neatsuite%2Fhttp-umd?style=for-the-badge&label=%40neatsuite%2Fhttp-umd&color=214eee)
+
+
+
+
 A comprehensive TypeScript-first monorepo of tools, utilities, and React components for NetSuite development. Built with performance, developer experience, and type safety in mind.
 
 ## 🚀 What's Inside?
@@ -35,8 +45,6 @@ npm install @neatsuite/http
 # For browser/client-side usage
 npm install @neatsuite/http-umd
 
-# For React components
-npm install @neatsuite/core @neatsuite/utils
 ```
 
 ### Basic Usage
@@ -72,10 +80,10 @@ const response = await client.restlet({
 - **Package Manager**: npm (v10.9.2 recommended)
 - **Git**: For version control and contributions
 
-### Clone and Install
+### Fork and Install
 
 ```bash
-# Clone the repository
+# Fork and clone the forked repository
 git clone https://github.com/neatsuite/netsuite-http.git
 cd neatsuite
 
@@ -216,7 +224,7 @@ When reporting issues, please include:
 - Improved error handling and debugging tools
 
 ### Future Plans
-- GraphQL support for NetSuite SuiteTalk
+- SuiteQL support for NetSuite SuiteTalk
 - Visual form builders for NetSuite records
 - Real-time data synchronization utilities
 - Enhanced testing and mocking tools
@@ -234,6 +242,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - NetSuite for providing the APIs that make this project possible
+- Axios for its beautiful HTTP library
 - The TypeScript and React communities for excellent tooling
 - All contributors who help improve NeatSuite
 
